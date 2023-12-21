@@ -696,11 +696,11 @@
 			}
 
 		.feature.left {
-			text-align: left;
+			text-align: justify;
 		}
 
 			.feature.left .image {
-				float: left;
+				float: justify;
 			}
 
 				.feature.left .image img {
@@ -710,10 +710,11 @@
 
 			.feature.left .content {
 				padding-right: 0;
+				max-width: 400px;
 			}
 
 		.feature.right {
-			text-align: right;
+			text-align: justify;
 		}
 
 			.feature.right .image {
@@ -727,6 +728,7 @@
 
 			.feature.right .content {
 				padding-left: 0;
+				max-width: 400px;
 			}
 
 		.feature.long .content {
