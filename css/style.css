@@ -824,6 +824,27 @@
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
 		}
+		.image img {
+			max-width: 100%;
+			height: auto;
+		}
+		.feature .image img {
+			width: 100%;
+			height: auto;
+			position: relative; /* If needed */
+		}
+		.content {
+			overflow-wrap: break-word;
+		}
+		@media (max-width: 768px) {
+			.feature .content, .feature .image {
+				width: 100%;
+				display: block;
+			}
+		}
+		
+
+
 
 /* Footer */
 
