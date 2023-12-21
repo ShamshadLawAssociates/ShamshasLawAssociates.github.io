@@ -696,7 +696,7 @@
 			}
 
 		.feature.left {
-			text-align: justify;
+			text-align: left;
 		}
 
 			.feature.left .image {
@@ -714,7 +714,7 @@
 			}
 
 		.feature.right {
-			text-align: justify;
+			text-align: right;
 		}
 
 			.feature.right .image {
