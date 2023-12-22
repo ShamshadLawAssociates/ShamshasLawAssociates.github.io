@@ -868,9 +868,10 @@
 	}
 
 	#header:before, #header:after,
-#main:before {
+	#main:before {
     /* Other properties */
     width: 0;
+	background: transparent;
     /* or background: transparent; */
 }
 
