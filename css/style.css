@@ -867,6 +867,13 @@
 		text-align: center;
 	}
 
+	#header:before, #header:after,
+#main:before {
+    /* Other properties */
+    width: 0;
+    /* or background: transparent; */
+}
+
 		#footer:before {
 			background: rgba(224, 224, 224, 0.75);
 			content: '';
